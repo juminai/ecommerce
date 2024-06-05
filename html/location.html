@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <script src="../js/location.js" defer></script>
+    <link rel="stylesheet" href="../css/location.css">
+</head>
+
+<body>
+    <div class="pagina-endereco">
+        <div class="endereco-imagem">
+            <img src="../assets/illustration.svg" alt="">
+
+            <div class="select-location">
+                <h2>Select Your Location</h2>
+                <p>Swithch on your location to stay in tune withwhat’s happening in your area</p>
+            </div>
+        </div>
+
+        <form class="endereco__formulario" data-formulario>
+
+            <fieldset class="formulario__campo">
+                <label class="campo__etiqueta" for="cep">CEP</label>
+                <input name="cep" id="cep" class="campo__escrita" type="text" minlength="3" maxlength="50"
+                    pattern="\d{5}-?\d{3}" required />
+                <span class="mensagem-erro"></span>
+            </fieldset>
+
+            <fieldset class="formulario__campo">
+                <label class="campo__etiqueta" for="cidade">Cidade</label>
+                <input name="cidade" id="cidade" class="campo__escrita" type="text" minlength="3" maxlength="50"
+                    required />
+                <span class="mensagem-erro"></span>
+            </fieldset>
+
+            <fieldset class="formulario__campo">
+                <label class="campo__etiqueta" for="bairro">Bairro</label>
+                <input name="bairro" id="bairro" class="campo__escrita" type="text" minlength="3" maxlength="50"
+                    required />
+                <span class="mensagem-erro"></span>
+            </fieldset>
+
+            <fieldset class="formulario__campo">
+                <label class="campo__etiqueta" for="endereco">Endereco</label>
+                <input name="endereco" id="endereco" class="campo__escrita" type="text" minlength="3" maxlength="50"
+                    required />
+                <span class="mensagem-erro"></span>
+            </fieldset>
+        </form>
+
+        <button type="button" class="save__btn">Salvar</button>
+    </div>
+
+</body>
+
+</html>

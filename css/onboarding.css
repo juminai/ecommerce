@@ -1,0 +1,42 @@
+@import url('./styles.css');
+
+.onboarding {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/welcome.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    font-family: var(--font);
+    gap: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 4rem;
+    color: var(--white);
+    margin: 1rem 5rem;
+}
+
+p {
+    font-size: 1rem;
+    color: var(--white-dim);
+    font-weight: bold;
+}
+
+.welcome__button {
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--green);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--white);
+    cursor: pointer;
+    width: 18rem;
+    margin-bottom: 4rem;
+}

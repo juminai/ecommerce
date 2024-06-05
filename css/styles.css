@@ -1,0 +1,12 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root {
+    --green: #53B175;
+    --white: #FFFFFF;
+    --white-dim: rgba(252, 252, 252, 0.7);
+    --white-weak: #E2E2E2;
+    --white-2: #F2F3F2;
+    --gray: #7c7c7c;
+    --font: "DM Sans", sans-serif;
+}
