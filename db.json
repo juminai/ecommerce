@@ -1,11 +1,62 @@
 {
-  "products": [
+  "products": {
+  "offer": [
     {
       "name": "Organic Bananas",
       "qtd": "7pcs",
       "price": "4.99",
-      "type": "priceg",
-      "img": //
+      "image": "https://github.com/juminai/ecommerce/assets/34354699/5a5cf73a-110f-4916-afae-ed05c35694bc"
+    },
+    {
+      "name": "Eggs",
+      "qtd": "4pcs",
+      "price": "4.99",
+      "image": "https://github.com/juminai/ecommerce/assets/34354699/265aaf6d-61e7-4ca1-a7e2-1ff26872b3e7"
+    },
+    {
+      "name": "Red Apple",
+      "qtd": "1kg",
+      "price": "4.99",
+      "image": "https://github.com/juminai/ecommerce/assets/34354699/56a6a693-1853-4300-b2c6-33c58374a14e"
+    },
+    {
+      "name": "Ginger",
+      "qtd": "250gm",
+      "price": "4.99",
+      "image": "https://github.com/juminai/ecommerce/assets/34354699/8b75e1c4-49c1-4376-bd28-505f3b134dd6"
+    },
+    {
+      "name": "Bell Pepper Red",
+      "qtd": "1kg",
+      "price": "4.99",
+      "image": "https://github.com/juminai/ecommerce/assets/34354699/77ca8122-eeb4-49b1-be31-dd9c24e2e6dd"
     }
-  ]
+  ],
+    "categories": [
+      {
+        "name": "Frash Fruits & Vegetable",
+        "image": "https://github.com/juminai/ecommerce/assets/34354699/47b9a1c4-eb35-47c7-8e06-c54189f5736a"
+      },
+      {
+        "name": "Cooking Oil & Ghee",
+        "image": "https://github.com/juminai/ecommerce/assets/34354699/a4ab9bfb-ed6f-484e-9094-a0a912984676"
+      },
+      {
+        "name": "Meat & Fish",
+        "image": "https://github.com/juminai/ecommerce/assets/34354699/a93dbdbc-e4c6-4ad6-90e4-79c356d45469"
+      },
+      {
+        "name": "Bakery & Snacks",
+        "image": "https://github.com/juminai/ecommerce/assets/34354699/267c57aa-f448-477f-8e9f-75be33a0dfed"
+      },
+      {
+        "name": "Dairy & Eggs",
+        "image": "https://github.com/juminai/ecommerce/assets/34354699/47b9a1c4-eb35-47c7-8e06-c54189f5736a"
+      },
+      {
+        "name": "Beverages",
+        "image": "https://github.com/juminai/ecommerce/assets/34354699/47b9a1c4-eb35-47c7-8e06-c54189f5736a"
+      }
+    ]    
+  }
 }
